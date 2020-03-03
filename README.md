@@ -1,5 +1,5 @@
 # comp251-notificationBot
-Notificiation Bot for COMP251 at McGill University so that I am notified whenever a new message is posted.
+Notificiation bot for COMP251 at McGill University so that I am notified whenever a new message is posted.
 Inspiration drawn from 303_Texter by Gaurav Karna at https://github.com/gaurav-karna/303_Texter
 
 ## Why?
