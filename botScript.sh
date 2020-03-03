@@ -19,7 +19,7 @@ do
 
     # Waiting between wget calls helps prevent requests from being blocked
     echo "Sleeping..."
-    sleep 1800
+    sleep 7200
 done
 
 echo -e "Bot ended. Up time: $ut cycles"
