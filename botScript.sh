@@ -10,16 +10,16 @@ do
     ut+=1
 
     # Get page as txt file
-    wget luc.devroye.org/251.html -O raw.txt
+    wget -q luc.devroye.org/251.html
 
     # Run Python checker
     python3 checker.py
 
-    rm raw.txt
+    rm 251.html
 
     # Waiting between wget calls helps prevent requests from being blocked
     echo "Sleeping..."
     sleep 7200
 done
 
-echo -e "Bot ended. Up time: $ut cycles"
+echo -e "Bot terminated. Up time: $ut cycles"
