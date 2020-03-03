@@ -1,1 +1,1 @@
-lastMsg = ""
+lastMsg = "February 29: The practice questions updated with material on priority queues. Solutions for all current practice questions have been posted."
