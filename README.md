@@ -5,4 +5,5 @@ Notificiation Bot for COMP251 at McGill University so that I am notified wheneve
 Because I don't want to be in the dark for when this legend posts his messages to the public.
 
 ## What to do
-Leave running in the background. It will notify you every 2 hours (Changeable) if there is a new message or not.
+Run botScript.sh in your terminal and leave it running in the background.
+It will notify you every 2 hours (Changeable within botScript.sh) if there is a new message or not.
