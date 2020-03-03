@@ -1,4 +1,9 @@
-from last import lastMsg
+try: # Tries to import lastMsg. If it fails, it creates last.py and fills it.
+    from last import lastMsg
+except ImportError:
+    print("Creating last.py...\nMessage below is the most recent message")
+    open("last.py","w").write("lastMsg = \"\"")
+    from last import lastMsg
 
 stop = "New / Messages&nbsp;&nbsp;</font><BR></TD>" # Old break: "<font class=\"bold\"><BR>"
 nxt = 0
@@ -27,4 +32,3 @@ else:
     last = open("last.py","w")
     last.seek(0)
     last.write("lastMsg = \"" + msg + "\"")
-    #last.write("\"") # Needed because weird behaviour when trying to write " after msg
