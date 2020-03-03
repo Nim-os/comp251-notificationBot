@@ -20,7 +20,7 @@ do
     rm *.txt
 
     # Waiting between wget calls helps prevent requests from being blocked
-    sleep 60
+    sleep 3600
 done
 
 echo -e "Bot finished. Up time: $ut cycles"
