@@ -9,7 +9,7 @@ stop = "New / Messages&nbsp;&nbsp;</font><BR></TD>" # Old break: "<font class=\"
 nxt = 0
 msg = ""
 
-raw = open("raw.txt", "r")
+raw = open("251.html", "r")
 
 # Checks for the breaking point within the html
 for line in raw:
