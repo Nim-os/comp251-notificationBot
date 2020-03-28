@@ -28,7 +28,7 @@ msg = msg[3:-1]
 if (msg == lastMsg):
     print("No new messages")
 else:
-    print("New message from luc.devroye.org/251.html\n" + msg)
+    print("\nNew message from luc.devroye.org/251.html\n" + msg + "\n")
     last = open("last.py","w")
     last.seek(0)
     last.write("lastMsg = \"" + msg + "\"")
