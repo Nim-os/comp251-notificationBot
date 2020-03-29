@@ -4,6 +4,10 @@ except ImportError:
     print("Creating last.py...\nMessage below is the most recent message")
     open("last.py","w").write("lastMsg = \"\"")
     from last import lastMsg
+import time
+
+if(time.localtime().tm_hour > 0 | time.localtime().tm_hour < 8):
+    exit(0)
 
 stop = "New / Messages&nbsp;&nbsp;</font><BR></TD>" # Old break: "<font class=\"bold\"><BR>"
 nxt = 0
